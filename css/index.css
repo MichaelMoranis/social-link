@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --bg-color-700: #333333;
+  --bg-color-800: #1f1f1f;
+  --bg-color-900: #141414;
+  --green-color: #c5f82a;
+  --white-color: #ffffff;
+}
+
+html,
+body,
+h1,
+span,
+p, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color-900);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color-800);
+  margin: 2rem 2rem;
+}
+
+main div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0.75rem;
+  color: var(--white-color);
+}
+
+main div img {
+  border-radius: 100%;
+}
+
+main div h1 {
+  font-size: 32px;
+}
+
+main div h3 {
+  color: var(--green-color);
+}
+
+main p {
+ font-family: "Inter", serif;;
+}
+
+
+main ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 90%;
+  margin: 1rem;
+}
+
+main ul li {
+    width: 60%;
+    text-align: center;
+    list-style: none;
+    color: var(--white-color);
+    padding: 1rem;
+    border-radius: .95rem;
+    background-color: var(--bg-color-700);
+    font-family: "Inter", serif;
+}
